@@ -112,12 +112,12 @@ header h1 {
 
 .news {
     position: fixed;
-    bottom: 32px;
-    right: 32px;
+    bottom: 10px;
+    right: 10px;
     width: calc(322px * 0.80); 
     height: calc(141px * 0.80);
     background: #fff;
-    box-shadow: 7.9px 15.8px 15.8px hsl(0deg 0% 0% / 0.25);
+    box-shadow: calc(7.9px * 0.70) calc(15.8px * 0.70) calc(15.8px * 0.70) hsl(0deg 0% 0% / 0.25);
 }
 
 .news div {
